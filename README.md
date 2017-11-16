@@ -1,5 +1,5 @@
 # The Kings Brotherhood Project
-###  Thank you for visiting this project site! I have put this site together to test front end web elements learned recently. This site is a collection of screenshots from the game Final Fantasy XV.
+###  Thank you for visiting this project site! I have put this site together to test front end web elements learned recently. This site is a collection of screenshots from the game Final Fantasy XV. For this current gallery display, I have them displayed in a way that the images are large before being clicked, until I implement a way to zoom them upon click event.
 
 
 # Instructions
