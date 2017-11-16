@@ -9,14 +9,14 @@ body {
   background-color: #EFFBFF;
   border-top: 4px solid #59B3B4;
   border-bottom: 4px solid #59B3B4;
-  font-size: 3.5em;
+  font-size: 5em;
   text-align: right;
 }
 
 #headslide {
   position: relative;
   display: block;
-  height: 00px;
+  height: 500px;
   width: 100%;
   border: 2px solid #E1E5CE;
   border-radius: 7px;
@@ -68,7 +68,7 @@ li {
   background: -moz-linear-gradient(bottom right, #AAFFE5, #B18FCF);
   background: linear-gradient(to bottom right, #AAFFE5, #B18FCF);
   list-style: none;
-  font-size: 1.85em;
+  font-size: 3em;
   text-align: center;
   border: 4px solid #59B3B4;
   border-radius: 20px;
@@ -94,7 +94,7 @@ li:hover::after {
   color: #020C38;
   text-align: center;
   font-family: 'Abel', sans-serif;
-  font-size: 1.50em;
+  font-size: 2.5em;
   text-shadow: 1px 1px #7C4C02;
 }
 
@@ -123,7 +123,7 @@ li:hover::after {
 .classhead {
   font-family: 'Play', sans-serif;
   color: #E2FEFF;
-  font-size: 1.85em;
+  font-size: 2.5em;
   text-align: center;
   padding-top: 12px;
   text-shadow: 5px 3px #0D0221;
@@ -141,7 +141,7 @@ li:hover::after {
   border-top: 4px solid #59B3B4;
   border-bottom: 4px solid #59B3B4;
   float: bottom;
-  font-size: 2.5em;
+  font-size: 3.5em;
   background-color: #F4F4F9;
 }
 
@@ -178,7 +178,7 @@ li:hover::after {
   background: -o-linear-gradient(bottom right, #AAFFE5, #B18FCF);
   background: -moz-linear-gradient(bottom right, #AAFFE5, #B18FCF);
   background: linear-gradient(to bottom right, #AAFFE5, #B18FCF);
-  font-size: 1.9em;
+  font-size: 2.25em;
   text-align: center;
   border: 3px solid #173C11;
   border-radius: 20px;
@@ -209,20 +209,10 @@ li:hover::after {
 
 /*CSS for input form and submit button*/
 
-h1{
+#formhead {
   text-align: center;
-  font-size: 2.5em;
-  padding-top: 3em;
-  font-family: 'Abel', sans-serif;
-  color: #173C11;
-  letter-spacing: 3px;
-}
-
-h2{
-  text-align: center;
-  font-size: 2em;
-  padding-top: 2em;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Play', sans-serif;
+  font-size: 4em;
   color: #173C11;
   letter-spacing: 3px;
 }
@@ -230,40 +220,44 @@ h2{
 #formp {
   font-family: 'Play', sans-serif;
   color: #173C11;
+  font-size: 2em;
+  padding-bottom: 20px;
   letter-spacing: 1px;
 }
 
-fieldset {
-  border: 1px solid #E2FEFF;
+form {
+  margin: 0 7em 0 7em;
 }
 
-form {
-  margin: 60px 60px;
+fieldset {
+  border: 2px solid #173C11;
 }
 
 legend {
   color: #173C11;
   font-family: 'Play', sans-serif;
-  font-size: 1.5em;
+  font-size: 2.5em;
   text-align: center;
   padding-top: 3em;
-  padding-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 label {
+  display: block;
   color: #173C11;
   font-family: 'Play', sans-serif;
-  font-size: 1.25em;
+  font-size: 1.6em;
+  margin-top: 1em;
+  margin-bottom: .75em;
 }
 
 input {
-  width: 90%;
-  padding: 12px 15px;
-  margin: 25px 8px;
+  width: 100%;
+  padding: 20px 0 20px 90;
 }
 
 input:hover {
-  cursor: text;
+  cursor: pointer;
 }
 
 input[type=text] {
@@ -283,7 +277,7 @@ textarea{
   color: ;
   border: 3px solid #00e676;
   border-radius: 3px;
-  width: 90%;
+  width: 100%;
   padding: 30px 15px;
   margin: 25px 8px;
 }
@@ -297,7 +291,7 @@ textarea[type=text]:focus {
 #subbutt {
   display: block;
   margin: auto;
-  margin-top: 25px;
+  margin-top: 75px;
   padding-left: 30px;
   padding-right: 30px;
   color: #AAFFE5;
@@ -321,14 +315,13 @@ textarea[type=text]:focus {
 
 /*Styling for footer*/
 footer {
-  display: flex;
-  flex: 1 0 auto;
+  display: block;
+  margin: auto;
+  margin-top: 12em;
   font-family: 'Play', sans-serif;
-  font-size: 1.05em;
+  font-size: 1.25em;
   font-weight: bold;
   text-align: center;
-  width: 100%;
-  margin-right: .5em;
   background-color: #AAFFE5;
 }
 
@@ -367,14 +360,6 @@ footer {
 
   #place2 {
     display: none;
-  }
-
-  #headslide {
-    height: 600px;
-  }
-
-  #classpic {
-    height: 500px;
   }
 
 }
@@ -484,9 +469,5 @@ footer {
     padding: .5em 0 5em 10px;
     font-size: 1.75em;
     text-align: center;
-  }
-
-  form {
-    margin: 0 15em 6em 15em;
   }
 }
