@@ -19,4 +19,4 @@
 
 
 ## Form
-### The submit form on the final page does not submit the links to any location at this point. For the moment it simply gives you a basic alert and sends you back to the home page to continue viewing that gallery.
+### The submit form on the final page does not submit the links to any location at this point. Just pops up an alert that tells you the information has been submitted.

@@ -1,5 +1,6 @@
 body {
   background-color: #E2FEFF;
+  padding: 0 .5em .5em .5em;
 }
 
 /*Header and Slideshow CSS*/
@@ -201,7 +202,7 @@ li:hover::after {
   text-align: center;
   color: #173C11;
   font-family: 'Abel', cursive;
-  font-size: 1.3em;
+  font-size: 2.2em;
   font-weight: bold;
   letter-spacing: 1.25px;
   margin: 2.5em 0 5em 0;
@@ -325,10 +326,6 @@ footer {
   background-color: #AAFFE5;
 }
 
-
-
-
-
 /*Media Query for Iphone Portrait*/
 @media only screen and (min-width: 320px) {
   #place {
@@ -338,10 +335,12 @@ footer {
   #place2 {
     display: none;
   }
+
 }
 
 /*Media Query for Iphone Landscape*/
 @media only screen and (min-width: 480px) {
+
   #place {
     display: none;
   }
@@ -354,6 +353,7 @@ footer {
 
 /*Media Query for Ipad*/
 @media only screen and (min-width: 768px) {
+
   #place {
     display: none;
   }
@@ -367,9 +367,6 @@ footer {
 
 /*Media Query for Desktop and Laptop*/
 @media only screen and (min-width: 1224px) {
-  body {
-    padding: 0 .5em .5em .5em;
-  }
 
   #place {
     display: block;
@@ -385,8 +382,8 @@ footer {
   }
 
   #headslide {
-    height: 300px;
-    width: 50%;
+    height: 400px;
+    width: 65%;
     border-top: 4px solid #59B3B4;
     border-bottom: 4px solid #59B3B4;
     border-right: 4px solid #59B3B4;
@@ -397,7 +394,7 @@ footer {
     border-bottom: 4px solid #59B3B4;
     border-left: 4px solid #59B3B4;
     border-radius: 8px;
-    font-size: 4.5em;
+    font-size: 5em;
     text-align: right;
     margin-left: 15%;
   }
@@ -425,6 +422,7 @@ footer {
   }
 
   li {
+    font-size: 1.95em;
     float: left;
     display: inline;
     padding-left: 15px;
@@ -438,6 +436,7 @@ footer {
 
   #cardhead {
     font-size: 3em;
+    letter-spacing: 3px;
     width: 70%;
     border: 4px solid #59B3B4;
     border-radius: 10px;
@@ -467,7 +466,15 @@ footer {
   .cardtext {
     margin: 2.5em 0 5em 0;
     padding: .5em 0 5em 10px;
-    font-size: 1.75em;
+    font-size: 1.85em;
     text-align: center;
+  }
+
+  form {
+    margin: 0 20em 3em 20em;
+  }
+
+  footer {
+    position: fixed;
   }
 }
