@@ -21,3 +21,6 @@
 
 ## Form
 ### The submit form on the final page does not submit the links to any location at this point. Just pops up an alert that tells you the information has been submitted.
+
+#### Notes:
+#### I am aware of a current issue in which the Picture Text button does not display center in desktop or laptop screen widths. This is being looked at and will be fixed as soon as possible. 
