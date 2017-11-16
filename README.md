@@ -9,12 +9,13 @@
 
 # Elements
 ## CSS
-### The CSS used for the layout is all custom. There is no Bootstrap involved, I wanted to have a shot at implementing some elements without it for the first time.
+### The CSS used for the layout is all custom. There is no Bootstrap involved at this time while I get a feel for practicing CSS myself.
 
 
 
 ## JavaScript/Jquery
-### The Javascript involved is used to make the slideshow at the top work, the Jquery I made to show and hide picture text content on the gallery pages.
+### The Javascript involved is used to make the slideshow at the top work
+### Jquery is involved in making the picture text buttons show and hide the content on the gallery pages.
 
 
 

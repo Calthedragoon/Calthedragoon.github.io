@@ -1,6 +1,6 @@
 body {
   background-color: #E2FEFF;
-  padding: 0 .5em .5em .5em;
+  padding: 0 .7em .7em .7em; 
 }
 
 /*Header and Slideshow CSS*/
@@ -420,7 +420,7 @@ footer {
 
   ul {
     display: inline-block;
-    margin: 1em 0 10em 15em; 
+    margin: 1em 0 10em 15em;
     background-color: #E2FEFF;
   }
 
@@ -455,7 +455,7 @@ footer {
 
   #classpic {
     height: 475px;
-    width: 65%;
+    width: 60%;
     border: 4px solid #59B3B4;
     border-radius: 10px;
     float: right;
