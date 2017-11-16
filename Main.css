@@ -420,8 +420,7 @@ footer {
 
   ul {
     display: inline-block;
-    margin-left: 10em;
-    margin-bottom: 10em;
+    margin: 1em 0 10em 15em; 
     background-color: #E2FEFF;
   }
 
