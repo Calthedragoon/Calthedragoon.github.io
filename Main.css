@@ -162,7 +162,7 @@ li:hover::after {
 #classpic {
   border-bottom: 4px solid #59B3B4;
   margin-bottom: 20px;
-  height: 350px;
+  height: 500px;
   width: 100%;
 }
 
@@ -297,7 +297,7 @@ textarea[type=text]:focus {
   color: #AAFFE5;
   background-color: #022B3A;
   font-family: 'Abel', sans-serif;
-  font-size: 1.75em;
+  font-size: 2em;
   letter-spacing: 4px;
   border: 4.5px solid #00e676;
   border-radius: 15px;
