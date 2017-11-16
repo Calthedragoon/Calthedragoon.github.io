@@ -1,6 +1,6 @@
 body {
   background-color: #E2FEFF;
-  padding: 0 .7em .7em .7em; 
+  padding: 0 .7em .7em .7em;
 }
 
 /*Header and Slideshow CSS*/
@@ -132,33 +132,24 @@ li:hover::after {
   font-weight: bold;
 }
 
-#cardhead {
-  font-family: 'Abel', sans-serif;
-  font-weight: bold;
+.pichead {
+  background-image: url('https://i.imgur.com/klYMuiv.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Play', sans-serif;
+  color: #E2FEFF;
+  font-size: 3.5em;
   text-align: center;
+  padding-top: 12px;
+  text-shadow: 5px 3px #0D0221;
+  letter-spacing: .5px;
+  font-weight: bold;
   padding: .5em 0 .5em 0;
-  color: #173C11;
-  background-color: #EFFBFF;
   border-top: 4px solid #59B3B4;
   border-bottom: 4px solid #59B3B4;
   float: bottom;
-  font-size: 3.5em;
-  background-color: #F4F4F9;
 }
 
-#cardhead2 {
-  font-family: 'Abel', sans-serif;
-  font-weight: bold;
-  text-align: center;
-  padding: .5em 0 .5em 0;
-  color: #173C11;
-  background-color: #EFFBFF;
-  border-top: 4px solid #59B3B4;
-  border-bottom: 4px solid #59B3B4;
-  float: bottom;
-  font-size: 2.5em;
-  background-color: #F4F4F9;
-}
 
 #classpic {
   border-bottom: 4px solid #59B3B4;
@@ -438,7 +429,7 @@ footer {
   }
 
   #cardhead {
-    font-size: 3em;
+    font-size: 4em;
     letter-spacing: 3px;
     width: 70%;
     border: 4px solid #59B3B4;
@@ -447,14 +438,14 @@ footer {
   }
 
   #cardhead2 {
-    font-size: 3em;
+    font-size: 4em;
     width: 60%;
     border: 4px solid #59B3B4;
     border-radius: 10px;
   }
 
   #classpic {
-    height: 475px;
+    height: 600px;
     width: 60%;
     border: 4px solid #59B3B4;
     border-radius: 10px;
@@ -469,7 +460,7 @@ footer {
   .cardtext {
     margin: 2.5em 0 5em 0;
     padding: .5em 0 5em 10px;
-    font-size: 1.85em;
+    font-size: 2em;
     text-align: center;
   }
 
